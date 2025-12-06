@@ -4,7 +4,7 @@ Pull or download the 2 files:
 
 •	efficient_frontier.py – the Python script (the code)
 
-•	prices.csv – the price data (do not rename or edit this file)
+•	prices.csv – the price data (do not rename, change extensions, or modify cell formats)
 
 This guide shows you exactly how to run the script on Windows.
 
