@@ -5,6 +5,7 @@ Pull or download the 2 files:
 •	efficient_frontier.py – the Python script (the code)
 
 •	prices.csv – the price data (do not rename, change extensions, or modify cell formats)
+                You can change the data, pick your own stocks and update the price data.
 
 This guide shows you exactly how to run the script on Windows.
 
@@ -33,7 +34,7 @@ Python 3.12.1
 5.	Then type:
 
 6.	pip --version
-7.	
+
 You should see a pip version.
 If either one says “not recognized”, reinstall Python and make sure “Add Python to PATH” was checked.
 
