@@ -1,13 +1,16 @@
 How to Run efficient_frontier.py
 
 Pull or download the 2 files:
+
 •	efficient_frontier.py – the Python script (the code)
+
 •	prices.csv – the price data (do not rename or edit this file)
+
 This guide shows you exactly how to run the script on Windows.
 
 ________________________________________
 1. Install Python (one-time setup)
-Step 1 – Download Python
+
 1.	Open your web browser.
 2.	Go to https://www.python.org.
 3.	Click Downloads → Download Python 3.x (any recent 3.x version is fine).
@@ -22,11 +25,15 @@ When the installer opens:
 Step 3 – Make sure Python is working
 1.	Press Start, type PowerShell, and open Windows PowerShell.
 2.	Type:
+   
 3.	python --version
+   
 You should see something like:
 Python 3.12.1
-4.	Then type:
-5.	pip --version
+5.	Then type:
+
+6.	pip --version
+7.	
 You should see a pip version.
 If either one says “not recognized”, reinstall Python and make sure “Add Python to PATH” was checked.
 
@@ -38,7 +45,9 @@ The script uses four add-on libraries:
 •	matplotlib
 •	scipy
 Install them once by running this in PowerShell:
+
 pip install numpy pandas matplotlib scipy
+
 Wait until it finishes (you should see messages like “Successfully installed …”).
 
 ________________________________________
@@ -55,10 +64,12 @@ C:\Users\<YourName>\Desktop\Efficient Frontier
 (Windows replaces <YourName> with your actual username.)
 Step 2 – Put the two files into that folder
 Copy the two files you were sent into this folder:
+
 •	efficient_frontier.py
 •	prices.csv
 
 In the end, your Desktop folder should look like:
+
 C:\Users\<YourName>\Desktop\Efficient Frontier\efficient_frontier.py
 C:\Users\<YourName>\Desktop\Efficient Frontier\prices.csv
 Do not rename either file.
@@ -69,15 +80,19 @@ ________________________________________
 Step 1 – Open PowerShell in that folder
 1.	Open Windows PowerShell.
 2.	Type this command (copy/paste is fine), replacing <YourName> with your actual Windows username:
+   
 3.	cd "C:\Users\<YourName>\Desktop\Efficient Frontier"
+
 Example:
 cd "C:\Users\Alex\Desktop\Efficient Frontier"
-4.	Press Enter.
+5.	Press Enter.
 Now PowerShell is “inside” the project folder.
 
 Step 2 – Run the Python script
 In the same PowerShell window, type:
+
 python "efficient_frontier.py"
+
 Then press Enter.
 
 ________________________________________
